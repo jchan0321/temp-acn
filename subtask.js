@@ -95,9 +95,8 @@ $( document ).ready(function() {
             dataType: 'json',
             data: JSON.stringify(request),
             success: function (data) {
-                //alert("success");
+                alert("success");
                 console.log("success");
-                $('#linkout')[0].click();
             },
             error: function (error) {
                 // replace this eventually with something else
